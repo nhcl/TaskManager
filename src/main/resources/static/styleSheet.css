@@ -1,0 +1,39 @@
+@charset "ISO-8859-1";
+
+input[type=submit]{
+  background-color:#bb99ff;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #884dff;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+  width:100%;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+}
+
+body {
+    text-align: center;
+}
+form {
+    display: inline-block;
+}
